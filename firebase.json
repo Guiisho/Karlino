@@ -1,0 +1,17 @@
+{
+   "hosting": {
+    "site": "karlinoscipo",
+    "public": "dist/karlinos/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
